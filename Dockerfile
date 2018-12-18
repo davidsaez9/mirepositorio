@@ -1,3 +1,5 @@
-FROM ubuntu:18.04
+FROM alphine
 
-RUN mkdir hola
+COPY pruba2 /
+
+CMD ["./pruba2"]
